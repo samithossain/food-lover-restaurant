@@ -1,0 +1,651 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header start  */
+    .menu ul {
+        text-align: center;
+        margin-bottom: 0 !important;
+        background: rgba(40,40,45, .9);
+    }
+    .menu_right ul li a {
+        border-bottom: 0.1px solid #ffffff5c;
+    }
+    .menu_right ul li:last-child a {
+        margin-right: 25px;
+    }
+    /* header end */
+    /* banner start  */
+    .main_hb {
+        height: 440px;
+    }
+    .banner {
+        padding: 120px 0;
+        height: 440px;
+    }
+    .banner::before {
+        height: 440px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_text h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .b_text p {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .b_text .c_button {
+        width: 151px;
+        height: 55px;
+        font-size: 20px;
+    }
+    /* banner end */
+    /* about start  */
+    .about {
+        padding: 40px 0;
+    }
+    .a_text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .a_text p {
+        font-size: 20px;
+        word-spacing: 0;
+    }
+    /* about end */
+     /* quality start  */
+     .quality::before {
+        display: none;
+    }
+        .left_img {
+            display: none;
+        }
+        .fq_text {
+            padding-bottom: 0px;
+        }
+        .fq_text h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        .fq_text p {
+        font-size: 16px;
+        }
+    /* quality end */
+     /* food gallery start  */
+        .food_gallery {
+            padding: 60px 0;
+        }
+        .fg_title h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .fgi_overlay {
+            padding-top: 30px;
+        }
+        .fgi_overlay ul li {
+            margin-bottom: 20px;
+        }
+        .fgi_overlay .c_button {
+            margin-top: 20px;
+        }
+        /* food gallery end */
+        /* enjoy start  */
+        .enjoy {
+            padding: 50px 0;
+        }
+        .enjoy_title {
+            padding: 10px;
+            border: 5px solid #e58f00;
+        }
+        .enjoy_title h1 {
+            margin-bottom: 15px;
+            font-size: 40px;
+        }
+        .enjoy_title p {
+            font-size: 16px;
+        }
+        /* enjoy end */
+        /* our menu start  */
+    .o_menu {
+        margin: 35px 0 0;
+    }
+    .menu_item {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .menu_img {
+        margin-bottom: 20px;
+    }
+    .menu_title h1 {
+        margin-bottom: 50px;
+        font-size: 45px;
+    }
+    .menu_text p {
+        margin: 10px 0;
+    }
+    /* our menu end */
+      /* enjoy meal start  */
+      .e_meal {
+        padding: 35px 0;
+    }
+    .e_meal_img  {
+        display: none;
+    }
+    .e_meal_img {
+        width: 250px;
+        top: 0px;
+        left: -100px;
+    }
+    .e_meal_text h1 {
+        margin-bottom: 8px;
+        font-size: 32px;
+    }
+    .e_meal_text p {
+        font-size: 16px;
+    }
+    /* enjoy meal end */
+     /* footer start  */
+     footer {
+        padding: 50px 0 60px;
+    }
+    .f_logo img {
+        width: 80%;
+        height: auto;
+    } 
+    .f_menu {
+        margin: 25px 0 30px;
+    }
+    .f_menu ul li {
+        margin: 5px 0;
+    }
+    .f_menu ul li a {
+        margin: 0px 5px;
+        font-size: 16px;
+    }
+    .f_icon ul li a i {
+        margin: 0 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    /* footer end */
+    
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* header start  */
+     .menu ul {
+        text-align: center;
+        margin-bottom: 0 !important;
+        background: rgba(40,40,45, .9);
+    }
+    .menu_right ul li a {
+        border-bottom: 0.1px solid #ffffff5c;
+    }
+    .menu_right ul li:last-child a {
+        margin-right: 25px;
+    }
+    /* header end */
+    /* banner start  */
+    .main_hb {
+        height: 480px;
+    }
+    .banner {
+        padding: 120px 0;
+        height: 480px;
+    }
+    .banner::before {
+        height: 480px;
+    }
+    .b_text h1 {
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    .b_text p {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .b_text .c_button {
+        font-size: 17px;
+        width: 140px;
+        height: 50px;
+    }
+    /* banner end */
+      /* about start  */
+      .about {
+        padding: 60px 0;
+    }
+    .a_text h1 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .a_text p {
+        font-size: 22px;
+        word-spacing: 1px;
+    }
+    /* about end */
+   /* quality start  */
+   .quality::before {
+    display: none;
+}
+    .left_img {
+        display: none;
+    }
+    .fq_text {
+        padding-bottom: 20px;
+    }
+    .fq_text h1 {
+    font-size: 40px;
+    margin-bottom:0px;
+    }
+    .fq_text p {
+    font-size: 25px;
+    }
+/* quality end */
+ /* food gallery start  */
+ .food_gallery {
+    padding: 60px 0;
+}
+.fg_title h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.fgi_overlay {
+    padding-top: 20px;
+}
+.fgi_overlay ul li {
+    margin-bottom: 10px;
+}
+.fgi_overlay .c_button {
+    margin-top: 15px;
+}
+/* food gallery end */
+/* enjoy start  */
+.enjoy {
+    padding: 80px 0;
+}
+.enjoy_title {
+    padding: 50px 40px;
+    border: 7px solid #e58f00;
+}
+.enjoy_title h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.enjoy_title p {
+    font-size: 20px;
+}
+/* enjoy end */
+    /* our menu start  */
+    .o_menu {
+        margin: 50px 0;
+    }
+    .menu_item {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .menu_img {
+        margin-bottom: 20px;
+    }
+    .menu_title h1 {
+        margin-bottom: 50px;
+        font-size: 45px;
+    }
+    .menu_text p {
+        margin: 10px 0;
+    }
+    /* our menu end */
+    /* enjoy meal start  */
+    .e_meal {
+        padding: 40px 0;
+    }
+    .e_meal_img {
+        width: 250px;
+        top: 0px;
+        left: -100px;
+    }
+    .e_meal_text h1 {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .e_meal_text p {
+        font-size: 18px;
+    }
+    /* enjoy meal end */
+    /* footer start  */
+    footer {
+        padding: 50px 0 60px;
+    } 
+    .f_menu {
+        margin: 25px 0 30px;
+    }
+    .f_menu ul li {
+        margin: 10px;
+    }
+    .f_menu ul li a {
+        margin: 0 25px;
+        font-size: 20px;
+    }
+    .f_icon ul li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    /* footer end */
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start  */
+    .menu ul {
+        text-align: center;
+        margin-bottom: 0 !important;
+        background: rgba(40,40,45, .9);
+    }
+    .menu_right ul li a {
+        border-bottom: 0.1px solid #ffffff5c;
+    }
+    .menu_right ul li:last-child a {
+        margin-right: 25px;
+    }
+    /* header end */
+    /* banner start  */
+    .main_hb {
+        height: 460px;
+    }
+    .banner {
+        padding: 120px 0;
+        height: 460px;
+    }
+    .banner::before {
+        height: 460px;
+    }
+    .b_text h1 {
+        margin-bottom: 10px;
+        font-size: 42px;
+    }
+    .b_text p {
+        margin-bottom: 15px;
+        font-size: 18px;
+        letter-spacing: .5px;
+    }
+    .b_text .c_button {
+        width: 160px;
+        height: 60px;
+        font-size: 20px;
+    }
+    /* banner end */
+    /* about start  */
+    .a_text h1 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .a_text p {
+        font-size: 20px;
+    }
+    /* about end */
+    /* quality start  */
+    .quality::before {
+        display: none;
+    }
+    .left_img {
+        display: none;
+    }
+    .fq_text {
+        padding-bottom: 20px;
+    }
+    .fq_text h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .fq_text p {
+        font-size: 30px;
+    }
+    /* quality end */
+    /* food gallery start  */
+    .food_gallery {
+        padding: 60px 0;
+    }
+    .fg_title h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    .fgi_overlay {
+        padding-top: 40px;
+    }
+    .fgi_overlay ul li {
+        margin-bottom: 30px;
+    }
+    .fgi_overlay .c_button {
+        margin-top: 15px;
+    }
+    /* food gallery end */
+      /* enjoy start  */
+      .enjoy {
+        padding: 120px 0;
+    }
+    .enjoy_title {
+        padding: 60px 70px;
+    }
+    .enjoy_title h1 {
+        margin-bottom: 25px;
+        font-size: 45px;
+    }
+    .enjoy_title p {
+        font-size: 26px;
+    }
+    /* enjoy end */
+    /* our menu start  */
+    .o_menu {
+        margin: 70px 0;
+    }
+    .menu_item {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .menu_img {
+        margin-bottom: 20px;
+    }
+    .menu_text p {
+        margin: 10px 0;
+    }
+    /* our menu end */
+    /* enjoy meal start  */
+    .e_meal {
+        padding: 65px 0;
+    }
+    .e_meal_img {
+        width: 300px;
+        top: 0;
+    }
+    .e_meal_text h1 {
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .e_meal_text p {
+        font-size: 20px;
+    }
+    /* enjoy meal end */
+    /* footer start  */
+    .f_menu ul li a {
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    .f_icon ul li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    /* footer end */
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header start  */
+    .menu ul li a {
+        margin: 0 15px;
+        letter-spacing: 0.2px;
+    }
+    /* banner start  */
+    .main_hb {
+        height: 700px;
+    }
+    .banner {
+        height: 700px;
+    }
+    .banner::before {
+        height: 700px;
+    }
+    .b_text h1 {
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    .b_text p {
+        margin-bottom: 30px;
+        font-size: 21px;
+    }
+    .b_text .c_button {
+        width: 170px;
+        height: 60px;
+        font-size: 23px;
+    }
+    /* banner end */
+    /* about start  */
+    .about {
+        padding: 60px 0;
+    }
+    .a_text h1 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .a_text p {
+        font-size: 22px;
+        word-spacing: 1px;
+    }
+    /* about end */
+    /* food quality start  */
+    .quality::before {
+        width: 45%;
+        height: 85%;
+    }
+    .left_img {
+        width: 300px;
+        top: 580px;
+    }
+    .fq_text h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .fq_text p {
+        font-size: 26px;
+    }
+    /* food quality end */
+    /* food gallery start  */
+    .food_gallery {
+        padding: 80px 0;
+    }
+    .fg_title h1 {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+    .fgi_overlay {
+        padding-top: 20px;
+    }
+    .fgi_overlay ul li {
+        margin-bottom: 30px;
+    }
+    .fgi_overlay .c_button {
+        margin-top: 15px;
+    }
+    /* food gallery end */
+    /* enjoy start  */
+    .enjoy {
+        padding: 150px 0;
+    }
+    .enjoy_title {
+        padding: 60px 70px;
+    }
+    .enjoy_title h1 {
+        margin-bottom: 25px;
+        font-size: 45px;
+    }
+    .enjoy_title p {
+        font-size: 26px;
+    }
+    /* enjoy end */
+    /* menu start  */
+    .o_menu {
+        margin-top: 120px;
+        margin-bottom: 140px;
+    }
+    .menu_title h1 {
+        margin-bottom: 50px;
+    }
+    .menu_text h2 {
+        font-size: 25px;
+    }
+    /* menu end */
+    /* enjoy meal start  */
+    .e_meal_img {
+        top: 40px;
+        width: 500px;
+    }
+    /* enjoy meal end */
+
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* about start  */
+    .about {
+        padding: 100px 0;
+    }
+    .a_text h1 {
+        margin-bottom: 20px;
+    }
+    .a_text p {
+        font-size: 25px;
+        word-spacing: 1px;
+    }
+    /* about end */
+      /* food quality start  */
+      .quality::before {
+        width: 40%;
+        bottom: 60px;
+    }
+      .left_img {
+        top: 670px;
+    }
+    .fq_text h1 {
+        margin-bottom: 30px;
+    }
+    .fq_text p {
+        font-size: 30px;
+    }
+    
+    /* food quality end */
+    /* menu start  */
+    .menu_text h2 {
+        font-size: 30px;
+    }
+    /* menu end */
+    /* enjoy meal start  */
+    .e_meal_img {
+        width: 500px;
+        top: 40px;
+    }
+    /* enjoy meal end */
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+    .quality::before {
+        width: 37%;
+    }
+}
